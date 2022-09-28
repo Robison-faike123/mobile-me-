@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .AppBar {
   height: 82px;
@@ -47,6 +48,7 @@ nav {
   position: absolute;
   top: calc(50% - 44px / 2);
 }
+
 nav img {
   padding-bottom: 50px;
   text-align: end;
@@ -72,14 +74,11 @@ nav img {
   font-size: 20px;
   line-height: 34px;
   text-decoration: none;
-
   display: flex;
   align-items: center;
   text-align: center;
   color: #fff;
   padding-bottom: 50px;
-
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -123,16 +122,13 @@ nav img {
   border-radius: nullpx;
   width: 327px;
   height: 124px;
-  
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
-  color: #FF6B00;
-  letter-spacing: 0.37px
-
-
+  color: #ff6b00;
+  letter-spacing: 0.37px;
 }
 
 .SupportingText {
@@ -142,12 +138,10 @@ nav img {
   left: 24px;
   top: 256px;
   border-radius: nullpx;
- 
-  
   font-weight: 700;
   font-size: 24px;
-  line-height: 32px; 
-  font-family: 'Roboto';
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   margin-bottom: 10px;
   color: #fff;
@@ -167,7 +161,7 @@ nav img {
 
   /* Theme 1 / Body Reguler 2 */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
