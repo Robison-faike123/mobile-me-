@@ -1,6 +1,6 @@
 
 .AppBar {
-  height: 92px;
+  height: 82px;
   width: 375px;
   left: 0;
   top: 0;
@@ -22,6 +22,9 @@
 }
 
 .ToolBar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   height: 48px;
   width: 375px;
   left: 0;
@@ -32,18 +35,22 @@
   bottom: 0;
 }
 
-.ToolBar img {
-  height: 40px;
-  width: 40px;
-  left: 311px;
-  border-radius: 8px;
+nav {
+  height: 44px;
+  width: 101px;
+  right: 44px;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
+  align-items: center;
   position: absolute;
-  right: 24px;
-  top: calc(50% - 40px / 2);
+  top: calc(50% - 44px / 2);
+}
+nav img {
+  padding-bottom: 50px;
+  text-align: end;
+  margin-left: 84px;
 }
 
 .Logo {
@@ -61,19 +68,17 @@
 
 .Logo a {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 14px;
-
-  /* identical to box height, or 133% */
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 34px;
+  text-decoration: none;
 
   display: flex;
   align-items: center;
   text-align: center;
   color: #fff;
+  padding-bottom: 50px;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -89,9 +94,9 @@
   gap: 12px;
   position: absolute;
   width: 327px;
-  height: 590px;
+  height: 598px;
   left: 0;
-  top: 92px;
+  top: 80px;
 
   /* background */
 
@@ -118,23 +123,16 @@
   border-radius: nullpx;
   width: 327px;
   height: 124px;
-  font-family: sans-serif;
+  
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
+  color: #FF6B00;
+  letter-spacing: 0.37px
 
-  /* or 114% */
 
-  letter-spacing: 0.37px;
-  margin-bottom: 20px;
-  color: #ff6b00;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .SupportingText {
@@ -144,17 +142,14 @@
   left: 24px;
   top: 256px;
   border-radius: nullpx;
-  font-family: sans-serif;
-  font-style: normal;
+ 
+  
   font-weight: 700;
   font-size: 24px;
-  line-height: 32px;
-
-  /* or 133% */
+  line-height: 32px; 
+  font-family: 'Roboto';
+  font-style: normal;
   margin-bottom: 10px;
-
-  /* Theme 3 / Primary 4 */
-
   color: #fff;
 
   /* Inside auto layout */
@@ -172,10 +167,10 @@
 
   /* Theme 1 / Body Reguler 2 */
 
-  font-family: sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 24px;
 
   /* or 150% */
