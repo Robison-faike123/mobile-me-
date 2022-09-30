@@ -526,6 +526,9 @@ button {
   /* line-height: 24px; */
   color: #fff;
 }
+.myskills {
+  margin-bottom: 90px;
+}
 
 .skills {
   display: flex;
@@ -538,6 +541,7 @@ button {
   height: 1241.46px;
   top: 4797px;
   border-top: 1px solid white;
+  /* margin-bottom: 90px; */
 }
 
 .languageHeading {
