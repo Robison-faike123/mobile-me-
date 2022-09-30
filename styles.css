@@ -154,9 +154,6 @@ nav img {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -425,9 +422,6 @@ button {
   width: 56px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -441,9 +435,6 @@ button {
   width: 95px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -490,8 +481,6 @@ button {
 }
 
 .about h1 {
-  /* Primary Text */
-
   width: 327px;
   height: 59px;
   font-family: "Crete Round", sans-serif;
@@ -510,8 +499,6 @@ button {
 .about button {
   text-align: center;
   padding: 8 25px;
-
-  /* padding-bottom: 20px; */
   height: 48px;
   background: #ff6b00;
   flex: none;
@@ -522,8 +509,6 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-
-  /* line-height: 24px; */
   color: #fff;
 }
 .myskills {
@@ -541,7 +526,6 @@ button {
   height: 1241.46px;
   top: 4797px;
   border-top: 1px solid white;
-  /* margin-bottom: 90px; */
 }
 
 .languageHeading {
@@ -730,13 +714,7 @@ button:hover {
   gap: 10px;
   width: 124px;
   height: 48px;
-
-  /* Theme 3 / Primary 1 */
-
   background: #ff6b00;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
