@@ -14,9 +14,9 @@ css
 To get a local copy up and running follow these simple example steps.
 Clone the repo named "portfolio"
 
-## Authors
+## Author
 
-👤 Faishar
+👤 Faishar 
 
 - GitHub: [faishar](https://github.com/Robinson-faike123)
 
