@@ -735,16 +735,94 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: #f55800;
   position: absolute;
   width: 375px;
   left: 0px;
   top: 6015px;
+  height: 1541.46px;;
 
   left: 0px;
   border-bottom: 1px solid white;
 /* height: 6968px; */
 
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.contact-p {
+  margin-top: 120px;
+  align-items: center;
+  width: 327px;
+  height: 216px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  text-align: center;
+
+}
+
+.inputText {
+  width: 327px;
+  height: 48px;
+  padding: 12px;
+  margin-left: 15px;
+  margin-top: 5px;
+  display: block;
+  justify-content: start;
+  text-align: start;
+
+}
+
+.input_t {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: 0px;
+  
+}
+
+.text-area {
+  margin-top: 20px;
+  margin-left: 20px;
+  background: #FBF8F7;
+  color: #3C3A39;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#comment {
+  width: 327px;
+  height: 114px;
+}
+
+.line- {
+  height: 1px;
+  width: 327px;
+  background: #DBD8D7;
+  margin-top: 10px;
+
+}
+
+.input_t:hover {
+  text-decoration: underline;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .form-text {
@@ -758,6 +836,42 @@ flex: none;
 background: #f4f1f0;
 order: 0;
 flex-grow: 0;
+}
+
+.btn-touch {
+  margin-top: 20px;
+  background: #FF6B00;
+  width: 131px;
+  height: 48px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border:  #FF6B00;
+  cursor: pointer;
+}
+
+.btn-touch:hover {
+  box-sizing: border-box;
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+  
+}
+
+.btn-touch:active {
+  background: #E05304;
+  color: #F4F1F0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;  
+}
+
+.btn-touch:disabled {
+  background: #F4F1F0;
+  color: #5B5957;
 }
 
 .form-text p {
