@@ -310,6 +310,10 @@ nav img {
   flex-grow: 0;
 }
 
+.contact-p p {
+  margin-left: 5px;
+}
+
 .languageBoxes .box p {
   box-sizing: border-box;
   border: 1px solid #8993a4;
@@ -453,12 +457,6 @@ button {
   flex-grow: 0;
 }
 
-
-/* .work1 button:hover {
-  background: #f4f4f4;
-  color:#ff6b00;
-} */
-
 .AboutMe {
   position: absolute;
   width: 375px;
@@ -511,6 +509,7 @@ button {
   font-size: 20px;
   color: #fff;
 }
+
 .myskills {
   margin-bottom: 90px;
 }
@@ -571,6 +570,10 @@ button {
   align-items: center;
   padding: 0 12px;
   gap: 8px;
+}
+
+li {
+  margin-left: 15px;
 }
 
 .LanguageSkill li {
@@ -737,14 +740,9 @@ button:hover {
   align-items: flex-start;
   position: absolute;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 6015px;
-  height: 1541.46px;;
-
-  left: 0px;
   border-bottom: 1px solid white;
-/* height: 6968px; */
-
 }
 
 .ContactForm {
@@ -752,11 +750,11 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-
 }
 
 .contact-p {
   margin-top: 120px;
+  margin-left: 20px;
   align-items: center;
   width: 327px;
   height: 216px;
@@ -764,9 +762,8 @@ button:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   text-align: center;
-
 }
 
 .inputText {
@@ -778,7 +775,6 @@ button:hover {
   display: block;
   justify-content: start;
   text-align: start;
-
 }
 
 .input_t {
@@ -787,15 +783,14 @@ button:hover {
   font-size: 15px;
   line-height: 24px;
   color: #979493;
-  border: 0px;
-  
+  border: 0;
 }
 
 .text-area {
   margin-top: 20px;
   margin-left: 20px;
-  background: #FBF8F7;
-  color: #3C3A39;
+  background: #fbf8f7;
+  color: #3c3a39;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -810,9 +805,8 @@ button:hover {
 .line- {
   height: 1px;
   width: 327px;
-  background: #DBD8D7;
+  background: #dbd8d7;
   margin-top: 10px;
-
 }
 
 .input_t:hover {
@@ -827,20 +821,19 @@ button:hover {
 
 .form-text {
   display: flex;
-justify-content: center;
-align-items: center;
-/* padding: 20px 10px; */
-margin-top: 190px;
-margin-left: 15px;
-flex: none;
-background: #f4f1f0;
-order: 0;
-flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 190px;
+  margin-left: 15px;
+  flex: none;
+  background: #f4f1f0;
+  order: 0;
+  flex-grow: 0;
 }
 
 .btn-touch {
   margin-top: 20px;
-  background: #FF6B00;
+  background: #ff6b00;
   width: 131px;
   height: 48px;
   text-align: center;
@@ -848,102 +841,42 @@ flex-grow: 0;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #FFFFFF;
-  border:  #FF6B00;
+  color: #fff;
+  border: #ff6b00;
   cursor: pointer;
 }
 
 .btn-touch:hover {
   box-sizing: border-box;
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
-  
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .btn-touch:active {
-  background: #E05304;
-  color: #F4F1F0;
+  background: #e05304;
+  color: #f4f1f0;
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .btn-touch:disabled {
-  background: #F4F1F0;
-  color: #5B5957;
+  background: #f4f1f0;
+  color: #5b5957;
 }
 
-.form-text p {
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 32px;
-  text-align: center;
-  /* line-height: 44px; */
-  text-align: center;
-  color: #172B4D;
-  width: 327px;
-  height: 216px;
-  
-
-}
-.form-inputs {
+.footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 15px 14px;
+}
+
+.Socials {
+  display: flex;
   justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding-top:15px;
-  /* gap: 24px; */
-  background: yellow;
-  /* width: 327px; */
-  height: 200px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-  
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-
-#message {
-  
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  background: #FBF8F7;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-}
-.Submit {
-  display: flex;
-  padding: 5px 12px;
-  margin-bottom: 0px;
-  justify-content: center;
-  align-items: center;
-
-}
-#Submit {
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.email {
-  /* width: 327px;
-height: 48px; */
-
+  list-style: none;
 }
