@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -22,13 +19,13 @@
           </div>
         </header>
       </div>
-      <section class="headline">
+      <div class="headline">
         <div class="content">
           <div class="PrimaryText">
             <h1 class="PrimaryText">Hey There. I'm faishar</h1>
           </div>
           <div class="SupportingText">
-            <h2 class="SupportingText">I'm a Software Developer</h2>
+            <p class="SupportingText">I'm a Software Developer</p>
           </div>
           <div class="discription">
             <p class="discription">
@@ -37,7 +34,7 @@
               a project you need coded, don't hestiate to contact me.
             </p>
           </div>
-          <ul class="SocialMedia"></ul>
+          <ul class="SocialMedia">
             <li>
               <a href="https://github.com/Robison-faike123">
                 <img src="images/Icon -GitHub.png" alt="-GitHub" />
@@ -65,7 +62,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
     </div>
     <!--this is for second section -->
     <section class="Works">
@@ -237,5 +234,72 @@
       </div>
     </section>
     </div>
+    <!----last section-->
+ <section class="details">
+    <div>
+         <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+    </div>
+    <form action="https://formspree.io/f/{form_id}" method="post">
+      <div class="ContactForm">
+          <div class="inputText">
+                  <input type="text" name="name" placeholder="Full name"
+                   required="" maxlength="30" type="text">
+            </div>
+
+          <div class="inputText">
+              <input
+               type="email"name="email" required=""
+                placeholder="Email address">    
+           </div>
+
+          <div class="inputTextarea">
+              <textarea
+               id="comment"
+               name="comment"
+               cols="50" rows="10" maxlength="500" required=""
+               placeholder="Enter text here"
+               type="text"></textarea>
+            </div>
+            
+            <div class="contact-button">
+                  <input type="Submit" value="Get In Touch">
+            </div>
+        </div>
+    </form>
+  </section>
+  <section class="footer">
+    <footer>
+      <ul class="SocialMedia">
+        <li>
+          <a href="https://github.com/Robison-faike123">
+            <img src="images/Icon -GitHub.png" alt="-GitHub" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/">
+            <img src="images/Icon - Linkedin.png" alt="Linkedin" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/Icon - Angelist.png" alt="Angelist" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com">
+            <img src="images/Icon - Twitter.png" alt="Twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/Icon - Medium.png" alt="Medium" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </section> 
   </body>
 </html>

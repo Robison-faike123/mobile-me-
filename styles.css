@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .AppBar {
-  height: 82px;
+  height: 92px;
   width: 375px;
   left: 0;
   top: 0;
@@ -207,8 +206,14 @@ nav img {
   grid-row: 1/2;
   display: flex;
   align-items: flex-start;
+
+  /* Theme 3 / Neutral 1 */
+
   color: #1c1a19;
   border-bottom: 1px solid #212121;
+
+  /* Inside auto layout */
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -259,6 +264,9 @@ nav img {
   padding-left: 0;
   margin-bottom: 0;
   margin-top: 0;
+
+  /* Inside auto layout */
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -268,6 +276,9 @@ nav img {
 .work1 p {
   width: 295px;
   height: 87px;
+
+  /* Theme 3 / Body Reguler 2 */
+
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -277,6 +288,9 @@ nav img {
   margin-bottom: 0;
   padding-left: 16px;
   color: #fff;
+
+  /* Inside auto layout */
+
   flex: none;
   flex-grow: 0;
 }
@@ -329,6 +343,9 @@ button {
 #w1 {
   grid-column: 2/3;
   grid-row: 4/5;
+
+  /* display: block;
+  width: 100%; */
 }
 
 #w2 {
@@ -376,6 +393,9 @@ button {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+
+  /* Inside auto layout */
+
   flex: none;
   flex-grow: 0;
 }
@@ -433,6 +453,12 @@ button {
   flex-grow: 0;
 }
 
+
+/* .work1 button:hover {
+  background: #f4f4f4;
+  color:#ff6b00;
+} */
+
 .AboutMe {
   position: absolute;
   width: 375px;
@@ -485,7 +511,6 @@ button {
   font-size: 20px;
   color: #fff;
 }
-
 .myskills {
   margin-bottom: 90px;
 }
@@ -704,4 +729,107 @@ button:hover {
 .MultiPostStories button:hover {
   background: #f55800;
   color: #f4f5f7;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f55800;
+  position: absolute;
+  width: 375px;
+  left: 0px;
+  top: 6015px;
+
+  left: 0px;
+  border-bottom: 1px solid white;
+/* height: 6968px; */
+
+}
+
+.form-text {
+  display: flex;
+justify-content: center;
+align-items: center;
+/* padding: 20px 10px; */
+margin-top: 190px;
+margin-left: 15px;
+flex: none;
+background: #f4f1f0;
+order: 0;
+flex-grow: 0;
+}
+
+.form-text p {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  text-align: center;
+  /* line-height: 44px; */
+  text-align: center;
+  color: #172B4D;
+  width: 327px;
+  height: 216px;
+  
+
+}
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:15px;
+  /* gap: 24px; */
+  background: yellow;
+  /* width: 327px; */
+  height: 200px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+#message {
+  
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #FBF8F7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+.Submit {
+  display: flex;
+  padding: 5px 12px;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+
+}
+#Submit {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.email {
+  /* width: 327px;
+height: 48px; */
+
 }
