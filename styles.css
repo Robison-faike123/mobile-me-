@@ -775,6 +775,7 @@ button:hover {
   display: block;
   justify-content: start;
   text-align: start;
+  border-bottom: 1px solid #dbd8d7;
 }
 
 .input_t {
@@ -800,13 +801,6 @@ button:hover {
 #comment {
   width: 327px;
   height: 114px;
-}
-
-.line- {
-  height: 1px;
-  width: 327px;
-  background: #dbd8d7;
-  margin-top: 10px;
 }
 
 .input_t:hover {
