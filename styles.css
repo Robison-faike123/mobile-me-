@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .AppBar {
-  height: 82px;
+  height: 92px;
   width: 375px;
   left: 0;
   top: 0;
@@ -207,8 +206,14 @@ nav img {
   grid-row: 1/2;
   display: flex;
   align-items: flex-start;
+
+  /* Theme 3 / Neutral 1 */
+
   color: #1c1a19;
   border-bottom: 1px solid #212121;
+
+  /* Inside auto layout */
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -259,6 +264,9 @@ nav img {
   padding-left: 0;
   margin-bottom: 0;
   margin-top: 0;
+
+  /* Inside auto layout */
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -268,6 +276,9 @@ nav img {
 .work1 p {
   width: 295px;
   height: 87px;
+
+  /* Theme 3 / Body Reguler 2 */
+
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -277,6 +288,9 @@ nav img {
   margin-bottom: 0;
   padding-left: 16px;
   color: #fff;
+
+  /* Inside auto layout */
+
   flex: none;
   flex-grow: 0;
 }
@@ -294,6 +308,10 @@ nav img {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.contact-p p {
+  margin-left: 5px;
 }
 
 .languageBoxes .box p {
@@ -329,6 +347,9 @@ button {
 #w1 {
   grid-column: 2/3;
   grid-row: 4/5;
+
+  /* display: block;
+  width: 100%; */
 }
 
 #w2 {
@@ -376,6 +397,9 @@ button {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+
+  /* Inside auto layout */
+
   flex: none;
   flex-grow: 0;
 }
@@ -548,6 +572,10 @@ button {
   gap: 8px;
 }
 
+li {
+  margin-left: 15px;
+}
+
 .LanguageSkill li {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -704,4 +732,187 @@ button:hover {
 .MultiPostStories button:hover {
   background: #f55800;
   color: #f4f5f7;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  left: 0;
+  top: 6015px;
+  border-bottom: 1px solid white;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-p {
+  margin-top: 120px;
+  margin-left: 20px;
+  align-items: center;
+  width: 327px;
+  height: 216px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.inputText {
+  width: 327px;
+  height: 48px;
+  margin-left: 15px;
+  margin-top: 5px;
+  display: block;
+  justify-content: start;
+  text-align: start;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.input_t {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: 0;
+  margin-top: 10px;
+}
+
+.text-area {
+  margin-top: 20px;
+  margin-left: 15px;
+  background: #fbf8f7;
+  color: #3c3a39;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  padding: 6px;
+  font-family: 'Inter'sans-serif;
+}
+
+.inputTextarea {
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 90px;
+  width: 300px;
+  border-radius: 0;
+}
+
+#comment {
+  width: 300px;
+  height: 90px;
+}
+
+.input_t:hover {
+  text-decoration: underline;
+}
+
+.text-area:hover {
+  border: 0.23rem solid blueviolet;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 190px;
+  margin-left: 15px;
+  flex: none;
+  background: #f4f1f0;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-touch {
+  margin-top: 3.5rem;
+  background: #ff6b00;
+  width: 131px;
+  height: 48px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: #ff6b00;
+  cursor: pointer;
+}
+
+.btn-touch:hover {
+  box-sizing: border-box;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  text-decoration: underline blueviolet;
+}
+
+.btn-touch:active {
+  background: #e05304;
+  color: #f4f1f0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.btn-touch:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+.cross {
+  border: 1px solid #dfe1e6;
+  margin-top: 100px;
+  align-self: stretch;
+  background: #dfe1e6;
+}
+
+.cross:hover {
+  background: #172b4d;
+  border: 1px solid #172b4d;
+}
+
+.contact-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.line {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 20px;
+  background: #0d151e;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
 }

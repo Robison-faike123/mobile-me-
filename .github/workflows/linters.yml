@@ -47,7 +47,7 @@ jobs:
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
   nodechecker:
-    name: node_modules checkegitr
+    name: node_modules checker
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
