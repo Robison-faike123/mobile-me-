@@ -897,4 +897,16 @@ button:hover {
   justify-content: center;
   align-items: center;
   list-style: none;
+  color: #505f79;
+}
+
+.line {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 60px;
 }
