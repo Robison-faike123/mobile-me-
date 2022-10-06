@@ -769,7 +769,6 @@ button:hover {
 .inputText {
   width: 327px;
   height: 48px;
-  padding: 12px;
   margin-left: 15px;
   margin-top: 5px;
   display: block;
@@ -785,18 +784,20 @@ button:hover {
   line-height: 24px;
   color: #979493;
   border: 0;
+  margin-top: 10px;
 }
 
 .text-area {
   margin-top: 20px;
-  margin-left: 20px;
-  background: #e5e5e5;
+  margin-left: 15px;
+  background: #fbf8f7;
   color: #3c3a39;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   border: none;
+  padding: 6px;
 }
 
 .inputTextarea {
@@ -841,7 +842,7 @@ button:hover {
 }
 
 .btn-touch {
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
   background: #ff6b00;
   width: 131px;
   height: 48px;
@@ -881,12 +882,19 @@ button:hover {
   justify-content: space-between;
   margin: 20px;
   padding: 15px 14px;
+  border-top: #dbd8d7;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-top: #979493;
 }
 
 .Socials {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
   list-style: none;
 }
