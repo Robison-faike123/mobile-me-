@@ -23,7 +23,9 @@ Clone the repo named "portfolio"
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome
+i have got help of my code partner mr geogre as it was suggested by the project requirements.
+his contribution has been very vital and of good help to my learning process
 
 Feel free to check the [issues page](../../issues/).
 

@@ -810,8 +810,13 @@ button:hover {
 }
 
 #comment {
+<<<<<<< HEAD
   width: 300px;
   height: 90px;
+=======
+  width: 327px;
+  height: 114px;
+>>>>>>> bb896341fb5192827d050de53c73d6c3ccd17ea4
 }
 
 .input_t:hover {
