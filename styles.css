@@ -737,7 +737,7 @@ button:hover {
 .details {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   position: absolute;
   width: 375px;
   left: 0;
@@ -798,10 +798,10 @@ button:hover {
   line-height: 24px;
   border: none;
   padding: 6px;
+  font-family: 'Inter'sans-serif;
 }
 
 .inputTextarea {
-  /* margin-left:20px; */
   margin-right: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -877,36 +877,42 @@ button:hover {
   color: #5b5957;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-  padding: 15px 14px;
-  border-top: #dbd8d7;
+.cross {
+  border: 1px solid #dfe1e6;
+  margin-top: 100px;
+  align-self: stretch;
+  background: #dfe1e6;
 }
 
-.footer-section {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  border-top: #979493;
+.cross:hover {
+  background: #172b4d;
+  border: 1px solid #172b4d;
 }
 
-.Socials {
+.contact-social-icon {
   display: flex;
-  justify-content: center;
   align-items: center;
-  list-style: none;
-  color: #505f79;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
 .line {
   position: absolute;
   width: 134px;
   height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 20px;
   background: #0d151e;
   border-radius: 10px;
-  margin-top: 100px;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
