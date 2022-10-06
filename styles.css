@@ -775,6 +775,7 @@ button:hover {
   display: block;
   justify-content: start;
   text-align: start;
+  border-bottom: 1px solid #dbd8d7;
 }
 
 .input_t {
@@ -789,28 +790,36 @@ button:hover {
 .text-area {
   margin-top: 20px;
   margin-left: 20px;
-  background: #fbf8f7;
+  background: #e5e5e5;
   color: #3c3a39;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  border: none;
+}
+
+.inputTextarea {
+  /* margin-left:20px; */
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 90px;
+  width: 300px;
+  border-radius: 0;
 }
 
 #comment {
-  width: 327px;
-  height: 114px;
-}
-
-.line- {
-  height: 1px;
-  width: 327px;
-  background: #dbd8d7;
-  margin-top: 10px;
+  width: 300px;
+  height: 90px;
 }
 
 .input_t:hover {
   text-decoration: underline;
+}
+
+.text-area:hover {
+  border: 0.23rem solid blueviolet;
 }
 
 .contact-button {
@@ -832,7 +841,7 @@ button:hover {
 }
 
 .btn-touch {
-  margin-top: 20px;
+  margin-top: 2.5rem;
   background: #ff6b00;
   width: 131px;
   height: 48px;
@@ -851,6 +860,7 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  text-decoration: underline blueviolet;
 }
 
 .btn-touch:active {
