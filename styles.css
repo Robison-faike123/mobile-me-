@@ -1,3 +1,8 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
 *{
  padding: 0rem;
@@ -925,7 +930,7 @@ button:hover {
 
   .Toolbar {
     height: 4.5em;
-    
+
   }
 
   .nav-menu {
